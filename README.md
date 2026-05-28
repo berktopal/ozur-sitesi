@@ -1,16 +1,24 @@
-# React + Vite
+# Özür Sitesi ❤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+İnteraktif web bileşenleri ve modern CSS yapıları kullanarak geliştirdiğim, kullanıcı deneyimini (UX) eğlenceli hale getirmeyi amaçlayan mini bir frontend projesi.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **İnteraktif Kaçış Mekanizması:** "Hayır" butonu, üzerine gelindiğinde veya tıklandığında ekranda rastgele konumlara kaçarak esprili bir deneyim sunar.
+- **Soft & Minimalist Tasarım:** Göz yormayan, pastel pembe (`rose-50`) tek renk arka plan ve okunaklı tipografi.
+- **Geri Tuşu Koruması (UX):** Tarayıcının "Geri" tuşuna basıldığında siteden tamamen çıkılmasını engellemek ve kullanıcıyı uygulama içinde tutmak için React `useEffect` ve `popstate` event yönetimi kullanılmıştır.
+- **Responsive Altyapı:** Hem mobil cihazlarda hem de masaüstü ekranlarda kusursuz çalışan esnek arayüz.
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React](https://react.dev/) (Vite altyapısı ile)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **State Management:** React Hooks (`useState`, `useEffect`)
 
-## Expanding the ESLint configuration
+## 💻 Yerel Kurulum ve Çalıştırma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+1. **Bağımlılıkları Yükleyin:**
+   ```bash
+   npm install
