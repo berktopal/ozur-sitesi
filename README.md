@@ -18,3 +18,28 @@ This project is designed to establish a "playful" interaction with the user by l
 - **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
 - **Animation/Effect:** `react-confetti`
 - **Deployment:** Netlify
+
+## How It Works
+
+- The "No" button's position is kept in React state; on hover or click it moves to a random point within the viewport.
+- Accepting switches the view to a celebration screen with `react-confetti` and a GIF.
+- A `popstate` listener intercepts the browser Back button so the user stays on the page.
+
+## Getting Started
+
+```bash
+npm install
+npm run dev        # http://localhost:5173
+npm run build      # production build in dist/
+```
+
+## Project Structure
+
+```
+├── public/        # GIFs and icons
+├── src/
+│   ├── App.jsx    # all interaction logic and views
+│   ├── main.jsx   # React entry point
+│   └── index.css  # Tailwind CSS
+└── vite.config.js
+```
